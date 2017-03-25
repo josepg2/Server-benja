@@ -4,7 +4,7 @@
   "description": "basic app example",
   "main": "index.js",
   "scripts": {
-    "start": "electron index.js"
+    "start": "electron main.js"
   },
   "author": "Andrea Giammarchi",
   "license": "MIT",
@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "electron": "latest",
-    "tiny-cdn": "latest"
+    "tiny-cdn": "latest",
+    "angular": "^1.6.3",
+    "jquery": "^3.2.1"
   }
 }
